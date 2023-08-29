@@ -8,7 +8,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Header />
       <main>
         <Introduction />
@@ -17,6 +17,6 @@ export default function Home() {
         <ProjectList />
         <Form />
       </main>
-    </div>
+    </>
   )
 }

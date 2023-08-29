@@ -7,8 +7,8 @@ import { CustomTyped } from './CustomTyped';
 
 export function Introduction() {
     return (
-        <section id="home">
-            <div className="">
+        <section id="home" className="px-16 2xl:px-64">
+            <div className="flex justify-between">
                 <h1>Olá, meu nome é <br />
                     <span className="">Matheus Lucca</span>
                     <br />
