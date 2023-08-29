@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function About(){
     return(
-        <section>
+        <section className='mt-20'>
             <div>
                 <div className='img'>
                         <Image src={me} alt="Uma foto minha" width={400} height={400}  />

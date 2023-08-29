@@ -7,11 +7,16 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      transitionProperty: {
+        'height': 'height',
+        'width': 'width',
+      }
+    },
     fontFamily: {
       'sans': ['Inter', 'sans-serif'],
       'roboto': ['Roboto', 'sans-serif'],
-    }
+    },
   },
   plugins: [],
 }

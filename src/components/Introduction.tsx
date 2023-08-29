@@ -7,14 +7,14 @@ import { CustomTyped } from './CustomTyped';
 
 export function Introduction() {
     return (
-        <section id="home" className="px-16 2xl:px-64">
+        <section id="home" className="px-16 2xl:px-64 mt-20 font-bold">
             <div className="flex justify-between">
-                <h1>Olá, meu nome é <br />
-                    <span className="">Matheus Lucca</span>
+                <h1 className='text-5xl'>Olá, meu nome é <br />
+                    <span className="text-6xl text-sky-700">Matheus Lucca</span>
                     <br />
 
                     <CustomTyped  className="writeText"
-                        strings={["FullStack Developer"]}
+                        strings={["Full Stack Developer"]}
                         typeSpeed={150}
                         backDelay={200}
                         backSpeed={100}
@@ -25,10 +25,16 @@ export function Introduction() {
                 </div>
             </div>
 
-            <div>
-                <a href="https://github.com/MatheusLucca"> <FaGithub /> <span>Github</span> </a>
-                <a href="https://www.instagram.com"> <FaInstagram /> <span>Instagram</span> </a>
-                <a href="https://www.linkedin.com/in/matheus-alves-b1a22720a/"> <FaLinkedin /> <span>Linkedin</span> </a>
+            <div className='flex gap-10 text-2xl transition-width transition-slowest ease'>
+                <a href="https://github.com/MatheusLucca" className='btn-social group'> 
+                    <FaGithub size={44}/> <span className='group-hover:visible group-hover:transition-all group-hover:duration-300 group-hover:delay-75 right-10'>GitHub</span>
+                </a>
+                <a href="https://www.instagram.com" className='btn-social group'> 
+                    <FaInstagram size={44}/> <span className='right-0 group-hover:visible group-hover:transition-all group-hover:duration-300 group-hover:delay-75 right-4'>Instagram</span> 
+                </a>
+                <a href="https://www.linkedin.com/in/matheus-alves-b1a22720a/" className='btn-social group'> 
+                    <FaLinkedin size={44}/> <span className='group-hover:visible group-hover:transition-all group-hover:duration-300 group-hover:delay-75 right-6'>Linkedin</span> 
+                </a>
             </div>
         </section>
     )

@@ -4,6 +4,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+@layer components {
+  .btn-social {
+    @apply flex align-baseline gap-2 w-16 relative bg-gray-600  rounded-full p-3 hover:w-48 hover:bg-sky-700 transition-all;
+  }
+  .btn-social span {
+    @apply absolute invisible top-5;
+  }
+}
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
