@@ -14,6 +14,36 @@
   .skills {
     @apply flex flex-col items-center text-2xl ;
   }
+
+  .item-project {
+    @apply relative flex flex-col justify-start;
+  }
+  .item-project-right{
+    @apply items-end self-end;
+  }
+  .item-project-left{
+    @apply items-start self-start;
+  }
+  .item-text-description{
+    @apply flex flex-col absolute top-8 font-bold text-4xl text-violet-600 z-10 transition-all duration-300;
+  }
+  .item-text-description-left{
+    @apply -right-24 group-hover:-right-48;
+  }
+  .item-text-description-right{
+    @apply -left-28 group-hover:-left-48;
+  }
+
+  .item-link{
+    @apply absolute bottom-0 z-10 text-3xl flex gap-5 font-bold transition-all duration-300;
+  }
+  .item-link-left{
+    @apply -right-48;
+  }
+
+  .item-link-right{
+    @apply -left-44;
+  }
 }
 
 

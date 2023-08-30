@@ -15,7 +15,7 @@ export function About(){
                     <p className='text-xl'>Estou à procura de emprego como desenvolvedor no mercado de trabalho e disponível a trabalhos freelancer.</p>
                     <p className='text-xl'>Trabalhei mais de um ano como desenvolvedor Full Stack utilizando(Javascript, Jquery e Django).</p>
                     <p className='text-xl'>Aqui você encontra alguns dos meus projetos, assim como no linkedin e github.</p>       
-                    <a href='' className='bg-sky-600 hover:bg-sky-700 text-white rounded-3xl w-36 text-2xl flex justify-center align-middle p-2'>Currículo</a>         
+                    <a href='' className='bg-sky-600 hover:bg-sky-700 text-white rounded-3xl w-36 text-xl flex justify-center p-2'>Currículo</a>         
                 </div> 
             </div>
         </section>

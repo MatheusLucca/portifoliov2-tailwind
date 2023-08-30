@@ -7,7 +7,7 @@ export function ProjectList() {
         description: "Descrição",
         imagem: "/assets/projeto.svg",
         link: "aaa",
-        class: "left"
+        left: true
 
 
     }
@@ -17,20 +17,20 @@ export function ProjectList() {
         description: "Descrição",
         imagem: "/assets/projeto.svg",
         link: "aaa",
-        class: "right"
+        left: false
 
 
     }
     return (
-        <section id="projects" className="bg-neutral-800  h-[79rem]">
-            <h2>Ultimos Projetos</h2>
-            <ul>
+        <section id="projects" className="bg-neutral-800  h-[82rem] pt-24 px-40 flex flex-col gap-10">
+            <h2 className="text-center text-sky-700 text-5xl font-bold mb-16">Últimos Projetos</h2>
+            <ul className="flex flex-col justify-center items-center gap-8">
                 <ProjectItem project={project} />
                 <ProjectItem project={project1} />
                 <ProjectItem project={project} />
             </ul>
 
-            <a href="">VER TODOS OS PROJETOS</a>
+            <a href="" className="bg-sky-600 hover:bg-sky-700 text-white rounded-3xl w-80 text-xl flex justify-center p-3 center self-center">VER TODOS OS PROJETOS</a>
 
         </section>
     )
