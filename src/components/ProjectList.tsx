@@ -22,7 +22,7 @@ export function ProjectList() {
 
     }
     return (
-        <section id="projects">
+        <section id="projects" className="bg-neutral-800  h-[79rem]">
             <h2>Ultimos Projetos</h2>
             <ul>
                 <ProjectItem project={project} />

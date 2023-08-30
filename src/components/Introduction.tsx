@@ -7,7 +7,7 @@ import { CustomTyped } from './CustomTyped';
 
 export function Introduction() {
     return (
-        <section id="home" className="px-16 2xl:px-64 mt-20 font-bold">
+        <section id="home" className="px-16 2xl:px-64 mt-28 font-bold h-[38rem]">
             <div className="flex justify-between">
                 <h1 className='text-5xl'>Olá, meu nome é <br />
                     <span className="text-6xl text-sky-700">Matheus Lucca</span>

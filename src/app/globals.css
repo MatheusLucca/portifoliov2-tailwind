@@ -11,6 +11,9 @@
   .btn-social span {
     @apply absolute invisible top-5;
   }
+  .skills {
+    @apply flex flex-col items-center text-2xl ;
+  }
 }
 
 
