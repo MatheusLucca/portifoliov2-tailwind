@@ -8,23 +8,25 @@ export function Skills() {
         desktop: {
             breakpoint: { max: 4000, min: 1024 },
             items: 3,
-            slidesToSlide: 1 // optional, default to 1.
+            slidesToSlide: 1 
         },
         tablet: {
             breakpoint: { max: 1024, min: 464 },
             items: 2,
-            slidesToSlide: 1 // optional, default to 1.
+            slidesToSlide: 1 
         },
+
         mobile: {
             breakpoint: { max: 464, min: 0 },
             items: 1,
-            slidesToSlide: 1 // optional, default to 1.
+            slidesToSlide: 1 
         }
+
     };
 
     return (
-        <section id="skills" className='h-[38rem] pt-24 px-40'>
-            <h2 className='text-center text-sky-700 text-5xl font-bold mb-16'>Habilidades</h2>
+        <section id="skills" className='h-[38rem] pt-24 md:px-40'>
+            <h2 className='text-center text-sky-700 mb-16 xs:text-3xl md:text-5xl font-bold'>Habilidades</h2>
             <Carousel
                 swipeable={true}
                 draggable={true}

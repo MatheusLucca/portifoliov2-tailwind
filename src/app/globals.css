@@ -6,7 +6,7 @@
 
 @layer components {
   .btn-social {
-    @apply flex align-baseline gap-2 w-16 relative bg-gray-600  rounded-full p-3 hover:w-48 hover:bg-sky-700 transition-all;
+    @apply flex align-baseline gap-2 w-16 relative bg-gray-600  rounded-full p-3 md:hover:w-48 hover:bg-sky-700 transition-all;
   }
   .btn-social span {
     @apply absolute invisible top-5;
@@ -14,7 +14,6 @@
   .skills {
     @apply flex flex-col items-center text-2xl ;
   }
-
   .item-project {
     @apply relative flex flex-col justify-start;
   }
@@ -43,6 +42,9 @@
 
   .item-link-right{
     @apply -left-44;
+  }
+  .input-form{
+    @apply h-16 pl-4 opacity-80 text-xl rounded-xl text-black focus:outline-none focus:border-2 focus:border-sky-500
   }
 }
 
