@@ -17,11 +17,17 @@
   .item-project {
     @apply relative flex flex-col justify-start;
   }
+  .xs-item{
+    @apply flex flex-col gap-4;
+  }
   .item-project-right{
     @apply items-end self-end;
   }
   .item-project-left{
     @apply items-start self-start;
+  }
+  .xs-item-text-description{
+    @apply font-bold text-2xl text-violet-600 transition-all duration-300
   }
   .item-text-description{
     @apply flex flex-col absolute top-8 font-bold text-4xl text-violet-600 z-10 transition-all duration-300;
@@ -32,7 +38,9 @@
   .item-text-description-right{
     @apply -left-28 group-hover:-left-48;
   }
-
+  .xs-item-link{
+    @apply text-xl font-bold transition-all duration-300 flex items-center gap-1;
+  }
   .item-link{
     @apply absolute bottom-0 z-10 text-3xl flex gap-5 font-bold transition-all duration-300;
   }
@@ -43,6 +51,14 @@
   .item-link-right{
     @apply -left-44;
   }
+
+  .xs-form{
+    @apply flex flex-col gap-4 justify-center items-center;
+  }
+  .form{
+    @apply flex flex-row justify-between items-baseline gap-36;
+  }
+
   .input-form{
     @apply h-16 pl-4 opacity-80 text-xl rounded-xl text-black focus:outline-none focus:border-2 focus:border-sky-500
   }

@@ -22,8 +22,8 @@ export function ProjectList() {
 
     }
     return (
-        <section id="projects" className="bg-neutral-800  h-[82rem] pt-24 px-40 flex flex-col gap-10">
-            <h2 className="text-center text-sky-700 xs:text-3xl md:text-5xl font-bold md:mb-16 xs:mb-4">Últimos Projetos</h2>
+        <section id="projects" className="bg-neutral-800 xs:h-[86rem] sm:h-[95rem] lg:h-[82rem] xs:pt-12 sm:pt-24 xs:px-5 md:px-28 lg:px-40 flex flex-col gap-10">
+            <h2 className="text-center text-sky-700 xs:text-3xl md:text-5xl font-bold xs:mb-4 md:mb-8 lg:mb-16">Últimos Projetos</h2>
             <ul className="flex flex-col justify-center items-center gap-8">
                 <ProjectItem project={project} />
                 <ProjectItem project={project1} />

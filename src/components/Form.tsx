@@ -4,17 +4,15 @@ export function Form() {
 
 
     return (
-        <section id="form" className="pt-20 h-[38rem] px-40 hidden">
-            <h2 className='text-center text-sky-700 text-5xl font-bold mb-16'>Entre em Contato</h2>
-            <div className="flex justify-between items-baseline gap-36">
+        <section id="form" className="pt-20 xs:h-[50rem] lg:h-[38rem] lg:px-40">
+            <h2 className='text-center text-sky-700 xs:mb-6 lg:mb-16 xs:text-3xl lg:text-5xl font-bold'>Contato</h2>
+            <div className="xs:xs-form lg:form">
                 <div className="text-sky-500">
-                    <h3 className="font-bold text-3xl">Informações</h3>
+                    <h4 className="font-bold xs:text-xl lg:text-2xl">Nome</h4>
+                    <span className="sm:text-lg lg:text-xl">Matheus Lucca Alves</span>
 
-                    <h4 className="font-bold text-2xl">Nome</h4>
-                    <span className="text-xl">Matheus Lucca Alves</span>
-
-                    <h4 className="font-bold text-2xl">Email</h4>
-                    <span className="text-xl">mat.lualves@gmail.com</span>
+                    <h4 className="font-bold xs:text-xl lg:text-2xl">Email</h4>
+                    <span className="sm:text-lg lg:text-xl">mat.lualves@gmail.com</span>
                 </div>
 
                 <form action="" className="flex flex-col gap-4 ml-12 flex-1">
